@@ -1,0 +1,9 @@
+body,
+html {
+  font-family: 'PlayFont', serif !important;
+}
+
+@font-face {
+  font-family: 'PlayFont';
+  src: local('PlayFont'), url(./@assets/fonts/Play-Regular.ttf) format('truetype');
+}

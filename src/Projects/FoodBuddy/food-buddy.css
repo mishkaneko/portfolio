@@ -1,0 +1,54 @@
+.food-buddy-section {
+  padding-top: 5rem;
+  padding-bottom: 30px;
+  background-image: var(--section-background-color);
+  background-color: black;
+  color: var(--text-color);
+  min-height: 100vh;
+}
+
+.food-buddy-content {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 60rem;
+}
+
+@media (max-width: 767px) {
+  .food-buddy-content {
+    max-width: 80vw;
+  }
+}
+
+/* Header */
+
+.food-buddy-content h1 {
+  margin-bottom: 2.5rem;
+}
+
+/* Images */
+
+.food-images {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.food-images img {
+  max-height: 25rem;
+  border-radius: 20px;
+}
+
+@media (max-width: 767px) {
+  .food-images img {
+    max-width: 25vw;
+  }
+}
+
+/* Message */
+
+.food-message-container {
+  width: 100%;
+  margin-bottom: 6rem;
+}

@@ -1,0 +1,10 @@
+html {
+  --section-background-color: linear-gradient(to bottom, #15151a, #49278d);
+  --text-color: #f5f2ff;
+  --highlighted-text-color: #9d6db1;
+  --highlighted-text-color-lighter: #cda0e0;
+}
+
+button:focus {
+  box-shadow: none !important;
+}
